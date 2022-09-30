@@ -2,51 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  background-color: pink;
 }
 
-.container {
-  width: 1260px;
-  margin: auto;
-  background-color: pink;
-  height: 100vh;
-}
-.container form {
-	display: flex;
-  flex-direction:column;
-  height: 100%;
-  text-align: center;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-  flex-wrap: wrap;
-}
-.container form label {
-  margin-bottom: 5px;
-  font-size: 19px;
-}
-.container form input {
-  width: 20%;
-  margin-bottom: 20px;
-  padding: 5px;
-  font-size: 20px;
-  outline: none;
-  border: none;
-  text-align: center;
-  border-radius: 10px;
-  color: #555;
-}
-.container form #dugme {
-  margin-bottom: 20px;
-  width: 14%;
-  height: 3.5%;
-  border: none;
-  border-radius: 10px;
-  font-size: 19px;
-  color: #fff;
-  outline: none;
-	background: #333;
-}
-#rezultat {
-	width:400px;
-}
+
